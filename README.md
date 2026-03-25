@@ -27,12 +27,12 @@
 - [🤖 4. Agentic AI & Multi-Agent Systems](#-4-agentic-ai--multi-agent-systems)
 - [🔍 5. Retrieval-Augmented Generation (RAG) & Knowledge](#-5-retrieval-augmented-generation-rag--knowledge)
 - [🎨 6. Generative Media Tools](#-6-generative-media-tools)
-- [🛠️ 7. Training & Fine-tuning Ecosystem](#-7-training--fine-tuning-ecosystem)
+- [🛠️ 7. Training & Fine-tuning Ecosystem](#section-7)
 - [📊 8. MLOps / LLMOps & Production](#-8-mlops--llmops--production)
 - [📈 9. Evaluation, Benchmarks & Datasets](#-9-evaluation-benchmarks--datasets)
-- [🛡️ 10. AI Safety, Alignment & Interpretability](#-10-ai-safety-alignment--interpretability)
+- [🛡️ 10. AI Safety, Alignment & Interpretability](#section-10)
 - [🧩 11. Specialized Domains](#-11-specialized-domains)
-- [🖥️ 12. User Interfaces & Self-hosted Platforms](#-12-user-interfaces--self-hosted-platforms)
+- [🖥️ 12. User Interfaces & Self-hosted Platforms](#section-12)
 - [🧪 13. Developer Tools & Integrations](#-13-developer-tools--integrations)
 - [📚 14. Resources & Learning](#-14-resources--learning)
 
@@ -93,7 +93,7 @@
 - **[Gemma 3 (Google)](https://github.com/google-deepmind/gemma)** ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/gemma?style=social) - Lightweight yet powerful open models with excellent efficiency for on-device, research, and production use.
 - **[Mistral Large / Nemo / Small](https://github.com/mistralai)** - High-performance model family with strong multilingual capability, tool use, and efficient deployment profiles.
 - **[Phi-4 / Phi-3.5 (Microsoft)](https://github.com/microsoft/PhiCookBook)** ![GitHub stars](https://img.shields.io/github/stars/microsoft/PhiCookBook?style=social) - Small but highly capable models optimized for reasoning, edge devices, and on-device inference.
-- **[GLM-5 (Zhipu AI)](https://github.com/zai-org/GLM-5)** ![GitHub stars](https://github.com/zai-org/GLM-5?style=social) - Strong open model line with solid coding, reasoning, and agentic-task performance.
+- **[GLM-5 (Zhipu AI)](https://github.com/zai-org/GLM-5)** ![GitHub stars](https://img.shields.io/github/stars/zai-org/GLM-5?style=social) - Strong open model line with solid coding, reasoning, and agentic-task performance.
 
 #### Coding & Reasoning Models
 
@@ -263,6 +263,8 @@
 
 ---
 
+<a id="section-7"></a>
+
 ### 🛠️ 7. Training & Fine-tuning Ecosystem
 
 > Tools for model training, fine-tuning, synthetic data generation, and distributed training.
@@ -358,6 +360,8 @@
 
 ---
 
+<a id="section-10"></a>
+
 ### 🛡️ 10. AI Safety, Alignment & Interpretability
 
 > Tools for alignment, interpretability, safety evaluation, and adversarial testing.
@@ -416,6 +420,8 @@
 - **[MicroTVM (Apache TVM)](https://github.com/apache/tvm)** ![GitHub stars](https://img.shields.io/github/stars/apache/tvm?style=social) - Compiler stack for microcontrollers.
 
 ---
+
+<a id="section-12"></a>
 
 ### 🖥️ 12. User Interfaces & Self-hosted Platforms
 
