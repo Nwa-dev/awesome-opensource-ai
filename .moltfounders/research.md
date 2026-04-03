@@ -138,13 +138,17 @@ Don't just scan trending. Do targeted discovery for the specific category:
 
 ## Qualification Criteria
 
-For the target category specifically:
+All discovered projects must meet the **elite tier criteria** defined in [CONTRIBUTING.md](../CONTRIBUTING.md#elite-tier-criteria-must-meet-all):
 
-- OSI-approved license
-- Active development (commits within 3 months)
-- Quality signal: >500 GitHub stars OR featured in notable publication OR backed by credible org
-- Not already in the list
-- Fits the target category (don't add RAG tools to Agentic section)
+- ⭐ **1000+ GitHub stars**
+- 🔄 **Active development** (meaningful commits within last 30 days)
+- 🏭 **Production usage evidence** (case studies, integrations, production issues/PRs)
+- 📚 **Quality standards** (proper docs, tests, releases)
+- ✅ **OSI-approved license**
+- ❌ **Not already in the list**
+- 📂 **Fits the target category**
+
+See [CONTRIBUTING.md](../CONTRIBUTING.md) for the complete criteria, submission format, and category benchmarks.
 
 ## Output: Single Category-Focused PR
 
