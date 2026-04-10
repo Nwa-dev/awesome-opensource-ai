@@ -249,6 +249,7 @@
 - **[Agno](https://github.com/agno-agi/agno)** ![GitHub stars](https://img.shields.io/github/stars/agno-agi/agno?style=social) - Build, run, and manage agentic software at scale. High-performance framework for multi-agent systems with memory, knowledge, and tools.
 - **[Upsonic](https://github.com/Upsonic/Upsonic)** ![GitHub stars](https://img.shields.io/github/stars/Upsonic/Upsonic?style=social) - Agent framework for fintech and banking with built-in MCP support, guardrails, and tool server architecture.
 - **[VoltAgent](https://github.com/VoltAgent/voltagent)** ![GitHub stars](https://img.shields.io/github/stars/VoltAgent/voltagent?style=social) - TypeScript-first AI agent engineering platform with memory, RAG, workflows, MCP integration, and voice support.
+- **[PocketFlow](https://github.com/The-Pocket/PocketFlow)** ![GitHub stars](https://img.shields.io/github/stars/The-Pocket/PocketFlow?style=social) - 100-line minimalist LLM framework for building agent workflows. Lightweight, extensible architecture for tool use and autonomous task execution.
 
 #### Multi-Agent Orchestration
 
@@ -264,6 +265,7 @@
 - **[Agency Swarm](https://github.com/VRSEN/agency-swarm)** ![GitHub stars](https://img.shields.io/github/stars/VRSEN/agency-swarm?style=social) - Reliable multi-agent orchestration framework built on top of the OpenAI Assistants API with organizational structure modeling.
 - **[elizaOS](https://github.com/elizaOS/eliza)** ![GitHub stars](https://img.shields.io/github/stars/elizaOS/eliza?style=social) - Autonomous multi-agent framework for building and deploying AI-powered applications. Features Discord/Telegram/Farcaster connectors, RAG support, and a modern web dashboard.
 - **[Agent Squad (AWS Labs)](https://github.com/awslabs/agent-squad)** ![GitHub stars](https://img.shields.io/github/stars/awslabs/agent-squad?style=social) - Flexible multi-agent orchestration framework with intelligent intent classification and context management. Supports Python and TypeScript with pre-built agents for Bedrock, Lex, and custom integrations. Apache 2.0 licensed.
+- **[DeepResearchAgent](https://github.com/SkyworkAI/DeepResearchAgent)** ![GitHub stars](https://img.shields.io/github/stars/SkyworkAI/DeepResearchAgent?style=social) - Hierarchical multi-agent system for deep research tasks with automated task decomposition and execution across complex domains.
 - **[BeeAI Framework (IBM)](https://github.com/i-am-bee/bee-agent-framework)** ![GitHub stars](https://img.shields.io/github/stars/i-am-bee/bee-agent-framework?style=social) - Production-ready multi-agent framework in Python and TypeScript. Features workflow orchestration, ACP/MCP protocol support, and deep watsonx integration. Part of Linux Foundation AI & Data program.
 
 #### Autonomous Coding Agents
@@ -287,6 +289,7 @@
 - **[PraisonAI](https://github.com/MervinPraison/PraisonAI)** ![GitHub stars](https://img.shields.io/github/stars/MervinPraison/PraisonAI?style=social) - 24/7 AI employee team for automating complex challenges. Low-code multi-agent framework with handoffs, guardrails, memory, RAG, and 100+ LLM providers.
 - **[Agent-S (Simular AI)](https://github.com/simular-ai/Agent-S)** ![GitHub stars](https://img.shields.io/github/stars/simular-ai/Agent-S?style=social) - Open agentic framework that uses computers like a human. SOTA on OSWorld benchmark (72.6%) for GUI automation and computer control.
 - **[Browser Use](https://github.com/browser-use/browser-use)** ![GitHub stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social) - Makes websites accessible for AI agents. Enables autonomous web automation, data extraction, and task completion with natural language instructions. MIT licensed.
+- **[TradingAgents](https://github.com/TauricResearch/TradingAgents)** ![GitHub stars](https://img.shields.io/github/stars/TauricResearch/TradingAgents?style=social) - Multi-agent framework for financial trading. Simulates professional trading firm operations with 6+ specialized agent roles, backtesting, risk management, and portfolio optimization. Built with LangGraph, supports multiple LLM providers.
 
 #### Agent Memory & State
 
