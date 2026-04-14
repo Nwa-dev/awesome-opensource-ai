@@ -837,6 +837,7 @@
 #### Curated Resource Lists
 
 - **[Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)** ![GitHub stars](https://img.shields.io/github/stars/josephmisiti/awesome-machine-learning?style=social) - The definitive curated list of machine learning frameworks, libraries and software organized by language. Covers Python, C++, Java, JavaScript, and more with comprehensive coverage of the ML ecosystem. CC0-1.0 licensed.
+- **[Andrej Karpathy Skills](https://github.com/forrestchang/andrej-karpathy-skills)** ![GitHub stars](https://img.shields.io/github/stars/forrestchang/andrej-karpathy-skills?style=social) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. Principles: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution. MIT licensed.
 
 ---
 
