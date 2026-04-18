@@ -753,7 +753,6 @@
 #### Weather & Climate AI
 
 - **[GraphCast](https://github.com/google-deepmind/graphcast)** ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/graphcast?style=social) - Deep learning weather forecasting model from Google DeepMind. State-of-the-art AI weather prediction with 10-day global forecasts matching or exceeding traditional numerical methods. Apache 2.0 licensed.
-- **[Pangu-Weather](https://github.com/198808xc/Pangu-Weather)** ![GitHub stars](https://img.shields.io/github/stars/198808xc/Pangu-Weather?style=social) - 3D neural network for accurate medium-range global weather forecasting from Huawei Cloud. First AI model to outperform ECMWF IFS on deterministic forecasting, published in Nature. Apache 2.0 licensed.
 
 #### Scientific AI & Physics ML
 
@@ -771,7 +770,6 @@
 #### Probabilistic Programming & Bayesian ML
 
 - **[PyMC](https://github.com/pymc-devs/pymc)** ![GitHub stars](https://img.shields.io/github/stars/pymc-devs/pymc?style=social) - Modern, comprehensive probabilistic programming framework in Python. Bayesian modeling with advanced MCMC sampling, variational inference, and seamless integration with ArviZ for visualization. Apache 2.0 licensed.
-- **[Pyro](https://github.com/pyro-ppl/pyro)** ![GitHub stars](https://img.shields.io/github/stars/pyro-ppl/pyro?style=social) - Deep universal probabilistic programming built on PyTorch. Flexible, scalable PPL supporting variational inference, MCMC, and deep generative models for scientific applications. Apache 2.0 licensed.
 - **[ArviZ](https://github.com/arviz-devs/arviz)** ![GitHub stars](https://img.shields.io/github/stars/arviz-devs/arviz?style=social) - Exploratory analysis of Bayesian models with Python. Comprehensive visualization and diagnostics for probabilistic models, supporting PyMC, Pyro, Stan, and other PPLs. Apache 2.0 licensed.
 - **[Stanza](https://github.com/stanfordnlp/stanza)** ![GitHub stars](https://img.shields.io/github/stars/stanfordnlp/stanza?style=social) - Stanford NLP Python library for 100+ human languages. State-of-the-art neural pipelines for tokenization, NER, parsing, and sentiment analysis with pre-trained models. Apache 2.0 licensed.
 
