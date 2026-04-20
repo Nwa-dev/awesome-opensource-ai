@@ -147,6 +147,14 @@
 - **[Darts](https://github.com/unit8co/darts)** ![GitHub stars](https://img.shields.io/github/stars/unit8co/darts?style=social) - User-friendly forecasting and anomaly detection for time series. Unifies classical statistical models (ARIMA, ETS) with modern neural networks (N-BEATS, TFT, DeepAR) in a single scikit-learn compatible API. Apache 2.0 licensed.
 - **[PyTorch Forecasting](https://github.com/sktime/pytorch-forecasting)** ![GitHub stars](https://img.shields.io/github/stars/sktime/pytorch-forecasting?style=social) - Time series forecasting with PyTorch. Multiple neural architectures (N-BEATS, TFT, DeepAR) with in-built interpretation capabilities, built on PyTorch Lightning for distributed training. MIT licensed.
 
+#### Data Labeling & Annotation
+
+- **[Label Studio](https://github.com/HumanSignal/label-studio)** ![GitHub stars](https://img.shields.io/github/stars/HumanSignal/label-studio?style=social) - Multi-type data labeling and annotation platform for computer vision, NLP, and audio. Supports image classification, object detection, named entity recognition, and more with customizable interfaces. Apache 2.0 licensed.
+- **[FiftyOne](https://github.com/voxel51/fiftyone)** ![GitHub stars](https://img.shields.io/github/stars/voxel51/fiftyone?style=social) - Open-source dataset curation and model analysis tool for computer vision. Visualize, explore, and improve image and video datasets with tight integration to annotation tools. Apache 2.0 licensed.
+- **[Doccano](https://github.com/doccano/doccano)** ![GitHub stars](https://img.shields.io/github/stars/doccano/doccano?style=social) - Open-source text annotation tool for machine learning practitioners. Features text classification, sequence labeling, and sequence-to-sequence tasks for sentiment analysis, NER, and summarization. MIT licensed.
+- **[Snorkel](https://github.com/snorkel-team/snorkel)** ![GitHub stars](https://img.shields.io/github/stars/snorkel-team/snorkel?style=social) - System for quickly generating training data with weak supervision. Programmatically label data using labeling functions instead of manual annotation. Apache 2.0 licensed.
+- **[OpenRefine](https://github.com/OpenRefine/OpenRefine)** ![GitHub stars](https://img.shields.io/github/stars/OpenRefine/OpenRefine?style=social) - Free, open-source power tool for working with messy data. Clean, transform, and extend data with web services. Formerly Google Refine. BSD-3-Clause licensed.
+
 #### AutoML & Hyperparameter Optimization
 
 - **[Optuna](https://github.com/optuna/optuna)** ![GitHub stars](https://img.shields.io/github/stars/optuna/optuna?style=social) - Modern, define-by-run hyperparameter optimization with pruning and visualizations. Extremely popular in 2026.
