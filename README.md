@@ -6,7 +6,7 @@
 
 # Awesome Open Source AI
 
-*A curated list of **battle-tested, production-proven** open-source AI models, libraries, infrastructure, and developer tools. Only elite-tier projects make this list. Updated April 24, 2026.*
+*A curated list of **battle-tested, production-proven** open-source AI models, libraries, infrastructure, and developer tools. Only elite-tier projects make this list. Updated April 25, 2026.*
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md)
@@ -236,6 +236,9 @@
 - **[Magma (Microsoft)](https://github.com/microsoft/Magma)** ![GitHub stars](https://img.shields.io/github/stars/microsoft/Magma?style=social) - Foundation model for multimodal AI agents that perceives the world and takes goal-driven actions across digital and physical environments. CVPR 2025.
 - **[OpenCLIP](https://github.com/mlfoundations/open_clip)** ![GitHub stars](https://img.shields.io/github/stars/mlfoundations/open_clip?style=social) - Open source implementation of CLIP with trained models and training code. Includes state-of-the-art trained ViT-G/14 models and comprehensive zero-shot evaluation suite.
 - **[Show-o](https://github.com/showlab/Show-o)** ![GitHub stars](https://img.shields.io/github/stars/showlab/Show-o?style=social) - Unified multimodal model for both multimodal understanding and text-to-image generation with transformative autoregressive modeling. Apache 2.0 licensed.
+- **[Moondream (m87-labs)](https://github.com/m87-labs/moondream)** ![GitHub stars](https://img.shields.io/github/stars/m87-labs/moondream?style=social) - Tiny vision language model (0.5B and 2B parameters) that runs anywhere. Powerful image understanding with remarkably small footprint for edge devices and real-time applications. Apache 2.0 licensed.
+- **[VILA (NVIDIA)](https://github.com/NVlabs/VILA)** ![GitHub stars](https://img.shields.io/github/stars/NVlabs/VILA?style=social) - Family of state-of-the-art vision language models for diverse multimodal AI tasks across edge, data center, and cloud. Features NVILA 8B/15B with efficient training and deployment. Apache 2.0 licensed.
+- **[OmniGen (VectorSpaceLab)](https://github.com/VectorSpaceLab/OmniGen)** ![GitHub stars](https://img.shields.io/github/stars/VectorSpaceLab/OmniGen?style=social) - Unified image generation model that handles text-to-image, subject-driven generation, identity-preserving generation, and image editing from multi-modal prompts without additional plugins. MIT licensed.
 
 #### Speech & Audio Models (TTS, STT, Music)
 
