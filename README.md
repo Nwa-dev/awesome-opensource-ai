@@ -390,6 +390,11 @@
 - **[Gemini CLI (Google)](https://github.com/google-gemini/gemini-cli)** ![GitHub stars](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=social) - Open-source AI agent that brings Gemini's power directly into your terminal. Supports code generation, shell execution, and file editing with full Apache 2.0 licensing.
 - **[Archon](https://github.com/coleam00/Archon)** ![GitHub stars](https://img.shields.io/github/stars/coleam00/Archon?style=social) - Workflow engine for deterministic AI coding agents. Define development processes as YAML workflows (planning → implementation → validation → review → PR) with isolated git worktrees for parallel execution. MIT licensed.
 
+#### Prompt Engineering & Structured Outputs
+
+- **[Outlines](https://github.com/dottxt-ai/outlines)** ![GitHub stars](https://img.shields.io/github/stars/dottxt-ai/outlines?style=social) - Structured outputs for LLMs. Guarantees valid JSON, regex-compliant text, and Pydantic model outputs during generation. Trusted by NVIDIA, Cohere, HuggingFace, and vLLM. Apache 2.0 licensed.
+- **[Promptify](https://github.com/promptslab/Promptify)** ![GitHub stars](https://img.shields.io/github/stars/promptslab/Promptify?style=social) - Task-based NLP engine with Pydantic structured outputs, built-in evaluation, and LiteLLM as the universal LLM backend. Think "scikit-learn for LLM-powered NLP". Apache 2.0 licensed.
+
 #### Domain-Specific Agents
 
 - **[Composio](https://github.com/ComposioHQ/composio)** ![GitHub stars](https://img.shields.io/github/stars/ComposioHQ/composio?style=social) - Tool integration layer for AI agents with 1000+ toolkits, authentication management, and sandboxed workbench. Powers tool use across major frameworks.
