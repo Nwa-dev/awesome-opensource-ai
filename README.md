@@ -155,6 +155,11 @@
 - **[Darts](https://github.com/unit8co/darts)** ![GitHub stars](https://img.shields.io/github/stars/unit8co/darts?style=social) - User-friendly forecasting and anomaly detection for time series. Unifies classical statistical models (ARIMA, ETS) with modern neural networks (N-BEATS, TFT, DeepAR) in a single scikit-learn compatible API. Apache 2.0 licensed.
 - **[PyTorch Forecasting](https://github.com/sktime/pytorch-forecasting)** ![GitHub stars](https://img.shields.io/github/stars/sktime/pytorch-forecasting?style=social) - Time series forecasting with PyTorch. Multiple neural architectures (N-BEATS, TFT, DeepAR) with in-built interpretation capabilities, built on PyTorch Lightning for distributed training. MIT licensed.
 
+#### Data Quality & Validation
+
+- **[Deequ](https://github.com/awslabs/deequ)** ![GitHub stars](https://img.shields.io/github/stars/awslabs/deequ?style=social) - Library built on top of Apache Spark for defining "unit tests for data". Measures data quality in large datasets with constraint verification, anomaly detection, and incremental validation. Used at Amazon for production data quality. Apache 2.0 licensed.
+- **[TFX (TensorFlow Extended)](https://github.com/tensorflow/tfx)** ![GitHub stars](https://img.shields.io/github/stars/tensorflow/tfx?style=social) - End-to-end platform for deploying production ML pipelines. Data validation, transformation, model training, and serving with TensorFlow. Powers Google's production ML infrastructure. Apache 2.0 licensed.
+
 #### Data Labeling & Annotation
 
 - **[Label Studio](https://github.com/HumanSignal/label-studio)** ![GitHub stars](https://img.shields.io/github/stars/HumanSignal/label-studio?style=social) - Multi-type data labeling and annotation platform for computer vision, NLP, and audio. Supports image classification, object detection, named entity recognition, and more with customizable interfaces. Apache 2.0 licensed.
