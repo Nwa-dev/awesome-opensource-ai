@@ -159,8 +159,6 @@
 - **[DataHub](https://github.com/datahub-project/datahub)** ![GitHub stars](https://img.shields.io/github/stars/datahub-project/datahub?style=social) - The #1 open-source metadata platform for data and AI. Data discovery, governance, and observability with 80+ connectors, column-level lineage, and AI assistant integration. Originally built at LinkedIn. Apache 2.0 licensed.
 - **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** ![GitHub stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social) - Unified metadata platform for data discovery, observability, and governance. Column-level lineage, semantic search, and team collaboration with 70+ data service connectors. Apache 2.0 licensed.
 - **[Amundsen](https://github.com/amundsen-io/amundsen)** ![GitHub stars](https://img.shields.io/github/stars/amundsen-io/amundsen?style=social) - Data discovery and metadata engine from Lyft. PageRank-style search for data resources with usage-based ranking. LF AI & Data Foundation project. Apache 2.0 licensed.
-- **[Hopsworks](https://github.com/logicalclocks/hopsworks)** ![GitHub stars](https://img.shields.io/github/stars/logicalclocks/hopsworks?style=social) - Real-Time AI Lakehouse with Python-centric Feature Store and MLOps. Manages features, models, and training pipelines with enterprise-grade governance. AGPL-3.0 licensed.
-- **[Featureform](https://github.com/featureform/featureform)** ![GitHub stars](https://img.shields.io/github/stars/featureform/featureform?style=social) - Virtual feature store that transforms existing data infrastructure into a feature store. Embeddings-first with native vector database support and transformer-based transformations. MPL-2.0 licensed.
 
 #### Data Quality & Validation
 
@@ -568,10 +566,8 @@
 - **[GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)** ![GitHub stars](https://img.shields.io/github/stars/RVC-Boss/GPT-SoVITS?style=social) - Few-shot voice cloning with just 1 minute of voice data. Combines GPT and SoVITS architectures for high-quality TTS with cross-lingual support and emotional expression. MIT licensed.
 - **[Chatterbox](https://github.com/resemble-ai/chatterbox)** ![GitHub stars](https://img.shields.io/github/stars/resemble-ai/chatterbox?style=social) - State-of-the-art open-source TTS with natural prosody and emotional control. Zero-shot voice cloning with high speaker similarity. MIT licensed.
 - **[F5-TTS](https://github.com/SWivid/F5-TTS)** ![GitHub stars](https://img.shields.io/github/stars/SWivid/F5-TTS?style=social) - Fully non-autoregressive text-to-speech using flow matching with diffusion transformer (DiT). Fast, high-quality synthesis with zero-shot voice cloning capabilities. MIT licensed.
-- **[🐸TTS (Coqui)](https://github.com/coqui-ai/TTS)** ![GitHub stars](https://img.shields.io/github/stars/coqui-ai/TTS?style=social) - Deep learning toolkit for Text-to-Speech, battle-tested in research and production. Supports 1100+ pretrained models, voice conversion, and multi-speaker TTS. Community-maintained after Coqui's closure. MPL-2.0 licensed.
 - **[OpenVoice (MyShell)](https://github.com/myshell-ai/OpenVoice)** ![GitHub stars](https://img.shields.io/github/stars/myshell-ai/OpenVoice?style=social) - Instant voice cloning by MIT and MyShell. Accurate tone color cloning, flexible voice style control, and zero-shot cross-lingual voice cloning. V2 released April 2024 with native multilingual support. MIT licensed.
 - **[Real-Time Voice Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)** ![GitHub stars](https://img.shields.io/github/stars/CorentinJ/Real-Time-Voice-Cloning?style=social) - Clone a voice in 5 seconds to generate arbitrary speech in real-time. SV2TTS implementation with speaker encoder and vocoder for instant voice synthesis. MIT licensed.
-- **[Muzic (Microsoft)](https://github.com/microsoft/muzic)** ![GitHub stars](https://img.shields.io/github/stars/microsoft/muzic?style=social) - Music Understanding and Generation with AI. Includes GetMusic for symbolic music generation, MusicBERT for music understanding, and DeepRapper for rap generation. MIT licensed.
 
 #### 3D & Creative Tools
 
@@ -841,7 +837,6 @@
 
 #### Agriculture & Sustainability AI
 
-- **[FarmVibes.AI](https://github.com/microsoft/farmvibes-ai)** ![GitHub stars](https://img.shields.io/github/stars/microsoft/farmvibes-ai?style=social) - Multi-Modal GeoSpatial ML Models for Agriculture and Sustainability from Microsoft. Fuse satellite imagery (RGB, SAR, multispectral), drone imagery, and weather data to estimate carbon footprint, understand growth rates, and detect farming practices. MIT licensed.
 - **[Raster Vision](https://github.com/azavea/raster-vision)** ![GitHub stars](https://img.shields.io/github/stars/azavea/raster-vision?style=social) - Open source Python framework for deep learning on satellite, aerial, and large imagery sets. Built-in support for chip classification, object detection, and semantic segmentation with PyTorch backends. Bridges GIS and computer vision. Apache 2.0 licensed.
 
 #### Weather & Climate AI
