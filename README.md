@@ -566,7 +566,6 @@
 - **[GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)** ![GitHub stars](https://img.shields.io/github/stars/RVC-Boss/GPT-SoVITS?style=social) - Few-shot voice cloning with just 1 minute of voice data. Combines GPT and SoVITS architectures for high-quality TTS with cross-lingual support and emotional expression. MIT licensed.
 - **[Chatterbox](https://github.com/resemble-ai/chatterbox)** ![GitHub stars](https://img.shields.io/github/stars/resemble-ai/chatterbox?style=social) - State-of-the-art open-source TTS with natural prosody and emotional control. Zero-shot voice cloning with high speaker similarity. MIT licensed.
 - **[F5-TTS](https://github.com/SWivid/F5-TTS)** ![GitHub stars](https://img.shields.io/github/stars/SWivid/F5-TTS?style=social) - Fully non-autoregressive text-to-speech using flow matching with diffusion transformer (DiT). Fast, high-quality synthesis with zero-shot voice cloning capabilities. MIT licensed.
-- **[OpenVoice (MyShell)](https://github.com/myshell-ai/OpenVoice)** ![GitHub stars](https://img.shields.io/github/stars/myshell-ai/OpenVoice?style=social) - Instant voice cloning by MIT and MyShell. Accurate tone color cloning, flexible voice style control, and zero-shot cross-lingual voice cloning. V2 released April 2024 with native multilingual support. MIT licensed.
 - **[Real-Time Voice Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)** ![GitHub stars](https://img.shields.io/github/stars/CorentinJ/Real-Time-Voice-Cloning?style=social) - Clone a voice in 5 seconds to generate arbitrary speech in real-time. SV2TTS implementation with speaker encoder and vocoder for instant voice synthesis. MIT licensed.
 
 #### 3D & Creative Tools
@@ -834,10 +833,6 @@
 ---
 
 ### 🧩 11. Specialized Domains
-
-#### Agriculture & Sustainability AI
-
-- **[Raster Vision](https://github.com/azavea/raster-vision)** ![GitHub stars](https://img.shields.io/github/stars/azavea/raster-vision?style=social) - Open source Python framework for deep learning on satellite, aerial, and large imagery sets. Built-in support for chip classification, object detection, and semantic segmentation with PyTorch backends. Bridges GIS and computer vision. Apache 2.0 licensed.
 
 #### Weather & Climate AI
 
