@@ -405,8 +405,7 @@
 - **[Outlines](https://github.com/dottxt-ai/outlines)** ![GitHub stars](https://img.shields.io/github/stars/dottxt-ai/outlines?style=social) - Structured outputs for LLMs. Guarantees valid JSON, regex-compliant text, and Pydantic model outputs during generation. Trusted by NVIDIA, Cohere, HuggingFace, and vLLM. Apache 2.0 licensed.
 - **[Promptify](https://github.com/promptslab/Promptify)** ![GitHub stars](https://img.shields.io/github/stars/promptslab/Promptify?style=social) - Task-based NLP engine with Pydantic structured outputs, built-in evaluation, and LiteLLM as the universal LLM backend. Think "scikit-learn for LLM-powered NLP". Apache 2.0 licensed.
 - **[LangGPT](https://github.com/langgptai/LangGPT)** ![GitHub stars](https://img.shields.io/github/stars/langgptai/LangGPT?style=social) - Pioneering framework for structured and meta-prompt design. Battle-tested by thousands of users worldwide with 10,000+ stars. The most popular prompt engineering paradigm for creating reusable, maintainable prompt templates. Apache 2.0 licensed.
-- **[LMQL](https://github.com/eth-sri/lmql)** ![GitHub stars](https://img.shields.io/github/stars/eth-sri/lmql?style=social) - Programming language for large language models with constraint-guided generation. Enables scripted prompting with Python syntax, advanced decoding strategies, and powerful constraints via logit masking. Integrates with LangChain and LlamaIndex. Apache 2.0 licensed.
-- **[OpenPrompt](https://github.com/thunlp/OpenPrompt)** ![GitHub stars](https://img.shields.io/github/stars/thunlp/OpenPrompt?style=social) - Open-source framework for prompt-learning research from Tsinghua University. Standardized, flexible toolkit for deploying prompt-learning pipelines with support for various PLMs, templates, and verbalizers. ACL 2022 Best Demo Paper Award. Apache 2.0 licensed.
+
 
 #### Domain-Specific Agents
 
