@@ -6,6 +6,61 @@ Deep research loop for finding elite-tier open-source AI projects. It cycles thr
 
 This spec is **schedule-agnostic** — implementers (cron jobs, manual runs, other agents) handle timing and persistence.
 
+## Discovery API: GitDB
+
+The primary discovery mechanism is the **GitDB API** (`https://p.gitdb.net/api/v1`), which provides semantic search and related-project discovery.
+
+### Endpoints
+
+| Endpoint | Purpose | Example |
+|----------|---------|---------|
+| `GET /projects/search` | Search projects by query | `https://p.gitdb.net/api/v1/projects/search?q=agent+framework&limit=50&offset=0&sort_by=relevance` |
+| `GET /{owner}/{repo}/related` | Find related/similar projects | `https://p.gitdb.net/api/v1/lobehub/lobe-chat/related?limit=10&offset=0` |
+
+### Query Parameters (Search)
+
+| Param | Type | Description |
+|-------|------|-------------|
+| `q` | string | Search query (keywords, topics) |
+| `limit` | int | Max results (default: 50) |
+| `offset` | int | Pagination offset |
+| `sort_by` | string | `relevance`, `stars`, `updated`, `created` |
+
+### Response Fields (Key)
+
+```json
+{
+  "projects": [{
+    "id": 12345,
+    "full_name": "owner/repo",
+    "url": "https://github.com/owner/repo",
+    "description": "...",
+    "language": "Python",
+    "stars": 15000,
+    "forks": 1200,
+    "last_push": "2026-04-20T12:00:00+00:00",
+    "is_archived": false,
+    "license": "mit",
+    "topics": "[\"ai\", \"llm\", \"agent\"]",
+    "similarity_score": 0.85  // only in /related
+  }],
+  "pagination": { "total": 150, "has_next": true }
+}
+```
+
+### Discovery Strategy
+
+1. **Start with search**: Use category keywords (e.g., "RAG vector database", "agent framework", "LLM inference")
+2. **Drill down with related**: For any promising project, fetch related projects to discover competitors/alternatives
+3. **Filter by thresholds**: Apply qualification criteria (stars ≥1000, activity, license)
+4. **Cross-reference**: Verify against existing README entries to avoid duplicates
+
+### Rate Limits
+
+- No authentication required for read endpoints
+- Be respectful: add small delays between requests
+- Cache results locally during a research session
+
 ## Clean Start Requirement
 
 Before doing any research, edits, branch creation, or PR work, the runner/agent must start from a clean, current base:
