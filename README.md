@@ -161,9 +161,18 @@
 - **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** ![GitHub stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social) - Unified metadata platform for data discovery, observability, and governance. Column-level lineage, semantic search, and team collaboration with 70+ data service connectors. Apache 2.0 licensed.
 - **[Amundsen](https://github.com/amundsen-io/amundsen)** ![GitHub stars](https://img.shields.io/github/stars/amundsen-io/amundsen?style=social) - Data discovery and metadata engine from Lyft. PageRank-style search for data resources with usage-based ranking. LF AI & Data Foundation project. Apache 2.0 licensed.
 
+#### Data Transformation & Analytics Engineering
+
+- **[dbt-core](https://github.com/dbt-labs/dbt-core)** ![GitHub stars](https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social) - Transform data using software engineering best practices. The industry-standard framework for analytics engineering with 15M+ monthly downloads. Enables version control, testing, and documentation for SQL transformations. Apache 2.0 licensed.
+- **[SQLMesh](https://github.com/TobikoData/sqlmesh)** ![GitHub stars](https://img.shields.io/github/stars/TobikoData/sqlmesh?style=social) - Scalable and efficient data transformation framework with dbt compatibility. Features automatic data lineage, time travel, and virtual data environments for testing. Optimized for large-scale data warehouses. Apache 2.0 licensed.
+
 #### Data Quality & Validation
 
 - **[Deequ](https://github.com/awslabs/deequ)** ![GitHub stars](https://img.shields.io/github/stars/awslabs/deequ?style=social) - Library built on top of Apache Spark for defining "unit tests for data". Measures data quality in large datasets with constraint verification, anomaly detection, and incremental validation. Used at Amazon for production data quality. Apache 2.0 licensed.
+- **[Great Expectations](https://github.com/great-expectations/great_expectations)** ![GitHub stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social) - Always know what to expect from your data. Data validation, profiling, and documentation for data pipelines. Apache 2.0 licensed.
+- **[ydata-profiling](https://github.com/ydataai/ydata-profiling)** ![GitHub stars](https://img.shields.io/github/stars/ydataai/ydata-profiling?style=social) - One line of code for comprehensive data quality profiling and exploratory data analysis. Generates detailed reports for Pandas and Spark DataFrames including statistics, correlations, missing values, and data quality alerts. MIT licensed.
+- **[Soda Core](https://github.com/sodadata/soda-core)** ![GitHub stars](https://img.shields.io/github/stars/sodadata/soda-core?style=social) - Data contracts engine for the modern data stack. Define data quality checks in YAML and automatically validate schema and data across your pipelines. Supports 20+ data sources including Snowflake, BigQuery, and PostgreSQL. Apache 2.0 licensed.
+- **[data-diff](https://github.com/datafold/data-diff)** ![GitHub stars](https://img.shields.io/github/stars/datafold/data-diff?style=social) - Compare tables within or across databases efficiently. Validate data replication, detect drift, and ensure consistency between data sources with high-performance diffing algorithms. MIT licensed.
 - **[TFX (TensorFlow Extended)](https://github.com/tensorflow/tfx)** ![GitHub stars](https://img.shields.io/github/stars/tensorflow/tfx?style=social) - End-to-end platform for deploying production ML pipelines. Data validation, transformation, model training, and serving with TensorFlow. Powers Google's production ML infrastructure. Apache 2.0 licensed.
 
 #### Data Labeling & Annotation
@@ -781,7 +790,6 @@
 - **[Cleanlab](https://github.com/cleanlab/cleanlab)** ![GitHub stars](https://img.shields.io/github/stars/cleanlab/cleanlab?style=social) - Data-centric AI package for automatically finding and fixing issues in datasets. Detects label errors, outliers, and ambiguous examples in ML datasets. Apache 2.0 licensed.
 - **[FineWeb / FineWeb-2 (Hugging Face)](https://huggingface.co/datasets/HuggingFaceFW/fineweb)** - Curated 15T+ token web dataset for pre-training.
 - **[OSWorld](https://github.com/xlang-ai/OSWorld)** ![GitHub stars](https://img.shields.io/github/stars/xlang-ai/OSWorld?style=social) - Multimodal agent benchmark dataset.
-- **[Great Expectations](https://github.com/great-expectations/great_expectations)** ![GitHub stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social) - Always know what to expect from your data. Data validation, profiling, and documentation for data pipelines. Apache 2.0 licensed.
 - **[OpenThoughts](https://github.com/open-thoughts/open-thoughts)** ![GitHub stars](https://img.shields.io/github/stars/open-thoughts/open-thoughts?style=social) - Fully open data curation for reasoning models. Curated high-quality reasoning datasets for training and evaluating LLMs. Apache 2.0 licensed.
 
 ---
