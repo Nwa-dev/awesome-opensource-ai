@@ -1031,6 +1031,7 @@
 - **[Refact](https://github.com/smallcloudai/refact)** ![GitHub stars](https://img.shields.io/github/stars/smallcloudai/refact?style=social) - Open-source AI code assistant with autocomplete, chat, and refactoring. Self-hostable with support for multiple LLM providers. BSD-3-Clause licensed.
 - **[Qwen Code](https://github.com/QwenLM/qwen-code)** ![GitHub stars](https://img.shields.io/github/stars/QwenLM/qwen-code?style=social) - Open-source AI agent for the terminal, optimized for Qwen series models. Multi-protocol provider support including OpenAI, Anthropic, Gemini, Alibaba Cloud, OpenRouter. Features agentic workflow with Skills and SubAgents. Apache 2.0 licensed.
 - **[DeepCode](https://github.com/HKUDS/DeepCode)** ![GitHub stars](https://img.shields.io/github/stars/HKUDS/DeepCode?style=social) - Transforms research papers and natural language into production-ready code. AI-powered research-to-code automation tool. MIT licensed.
+- **[OpenCode](https://github.com/opencode-ai/opencode)** ![GitHub stars](https://img.shields.io/github/stars/opencode-ai/opencode?style=social) - Terminal-native AI coding agent with 140K+ GitHub stars. Supports multiple LLM providers with privacy-focused local execution. MIT licensed.
 
 #### Notebooks & Interactive Computing
 
@@ -1045,10 +1046,12 @@
 - **[Continue VS Code / JetBrains](https://github.com/continuedev/continue)** ![GitHub stars](https://img.shields.io/github/stars/continuedev/continue?style=social) - Most installed open-source AI extension.
 - **[ProxyAI](https://github.com/carlrobertoh/ProxyAI)** ![GitHub stars](https://img.shields.io/github/stars/carlrobertoh/ProxyAI?style=social) - Leading open-source AI copilot for JetBrains IDEs. Connect to any model in any environment with auto-apply, image chat, file references, web search, and customizable personas. Apache 2.0 licensed.
 - **[avante.nvim](https://github.com/yetone/avante.nvim)** ![GitHub stars](https://img.shields.io/github/stars/yetone/avante.nvim?style=social) - Neovim plugin that brings Cursor-like AI IDE features to Vim. Edit code with natural language, generate code from context, and chat with AI about your codebase. Apache 2.0 licensed.
+- **[Serena](https://github.com/oraios/serena)** ![GitHub stars](https://img.shields.io/github/stars/oraios/serena?style=social) - Powerful MCP toolkit for coding agents providing semantic retrieval and editing capabilities. Integrates language servers for IDE-level code understanding. MIT licensed.
 - **[vim-ai](https://github.com/madox2/vim-ai)** ![GitHub stars](https://img.shields.io/github/stars/madox2/vim-ai?style=social) - AI-powered code assistant for Vim and Neovim. Generate code, edit text, and have interactive conversations with GPT models. Supports custom roles, vision capabilities, and any OpenAI-compatible API. MIT licensed.
 - **[windsurf.vim](https://github.com/Exafunction/windsurf.vim)** ![GitHub stars](https://img.shields.io/github/stars/Exafunction/windsurf.vim?style=social) - Free, ultrafast Copilot alternative for Vim and Neovim. AI-powered code completion with low latency and large context window. MIT licensed.
 - **[Jupyter AI](https://github.com/jupyterlab/jupyter-ai)** ![GitHub stars](https://img.shields.io/github/stars/jupyterlab/jupyter-ai?style=social) - Chat and code generation inside notebooks.
 - **[Minuet AI](https://github.com/milanglacier/minuet-ai.nvim)** ![GitHub stars](https://img.shields.io/github/stars/milanglacier/minuet-ai.nvim?style=social) - Neovim plugin offering code completion as-you-type from popular LLMs including OpenAI, Gemini, Claude, Ollama, Llama.cpp, Codestral, and more. GPL-3.0 licensed.
+- **[Peekaboo](https://github.com/steipete/Peekaboo)** ![GitHub stars](https://img.shields.io/github/stars/steipete/Peekaboo?style=social) - macOS CLI & MCP server enabling AI agents to capture screenshots and automate UI interactions. Visual question answering through local or remote AI models. MIT licensed.
 
 #### UI Components & Chat Libraries
 
@@ -1066,8 +1069,10 @@
 - **[aicommits](https://github.com/Nutlope/aicommits)** ![GitHub stars](https://img.shields.io/github/stars/Nutlope/aicommits?style=social) - CLI that writes your git commit messages for you with AI. Never write a commit message again. Supports multiple providers including OpenAI, Groq, xAI, Ollama, and LM Studio. MIT licensed.
 - **[Codex CLI](https://github.com/openai/codex)** ![GitHub stars](https://img.shields.io/github/stars/openai/codex?style=social) - OpenAI's lightweight coding agent that runs in your terminal. Code generation, file editing, and command execution with approval. Apache 2.0 licensed.
 - **[Repomix](https://github.com/yamadashy/repomix)** ![GitHub stars](https://img.shields.io/github/stars/yamadashy/repomix?style=social) - Powerful tool that packs your entire repository into a single AI-friendly file. Perfect for feeding codebases to LLMs with smart filtering and token counting. MIT licensed.
+- **[GitIngest](https://github.com/cyclotruc/gitingest)** ![GitHub stars](https://img.shields.io/github/stars/cyclotruc/gitingest?style=social) - Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase. Optimized for Python ecosystem and data science workflows. MIT licensed.
 - **[Instructor](https://github.com/jxnl/instructor)** ![GitHub stars](https://img.shields.io/github/stars/jxnl/instructor?style=social) - Python library for extracting structured, validated data from LLMs using Pydantic models. Handles validation, retries, and error handling with 15+ provider support. MIT licensed.
 - **[Mirascope](https://github.com/Mirascope/mirascope)** ![GitHub stars](https://img.shields.io/github/stars/Mirascope/mirascope?style=social) - Python toolkit for building LLM applications with automatic versioning, tracing, and cost tracking. The "LLM Anti-Framework" for developers who want control. MIT licensed.
+- **[Context7](https://github.com/upstash/context7)** ![GitHub stars](https://img.shields.io/github/stars/upstash/context7?style=social) - Up-to-date code documentation for LLMs and AI code editors. Fetches latest docs and code examples directly into LLM context via MCP. Eliminates hallucinated APIs. MIT licensed.
 
 #### SDKs & API Development Tools
 
