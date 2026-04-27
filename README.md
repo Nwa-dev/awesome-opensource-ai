@@ -439,9 +439,6 @@
 - **[Julep](https://github.com/julep-ai/julep)** ![GitHub stars](https://img.shields.io/github/stars/julep-ai/julep?style=social) - Stateful agent workflow platform with memory, tools, branching, and long-running task execution.
 - **[Tracecat](https://github.com/TracecatHQ/tracecat)** ![GitHub stars](https://img.shields.io/github/stars/TracecatHQ/tracecat?style=social) - Self-hostable security automation platform for building agentic workflows across alerts, cases, and operations.
 - **[ToolJet](https://github.com/ToolJet/ToolJet)** ![GitHub stars](https://img.shields.io/github/stars/ToolJet/ToolJet?style=social) - Self-hostable internal app builder with AI app and agent workflows for operations teams.
-- **[ByteChef](https://github.com/bytechefhq/bytechef)** ![GitHub stars](https://img.shields.io/github/stars/bytechefhq/bytechef?style=social) - AI-native low-code platform for API orchestration, workflow automation, and agent integrations.
-- **[Giselle](https://github.com/giselles-ai/giselle)** ![GitHub stars](https://img.shields.io/github/stars/giselles-ai/giselle?style=social) - Open-source AI app builder for designing and running agentic workflows.
-- **[NodeTool](https://github.com/nodetool-ai/nodetool)** ![GitHub stars](https://img.shields.io/github/stars/nodetool-ai/nodetool?style=social) - Visual builder for AI workflows and agents with local-model integrations and node-based orchestration.
 
 #### Agent Memory & State
 
@@ -484,7 +481,6 @@
 - **[RediSearch](https://github.com/RediSearch/RediSearch)** ![GitHub stars](https://img.shields.io/github/stars/RediSearch/RediSearch?style=social) - Full-text, secondary indexing, and vector similarity search for Redis deployments. Useful when retrieval needs low-latency Redis-native search.
 - **[ParadeDB](https://github.com/paradedb/paradedb)** ![GitHub stars](https://img.shields.io/github/stars/paradedb/paradedb?style=social) - Postgres-native search and analytics engine for full-text, faceted, and hybrid retrieval without moving data out of PostgreSQL.
 - **[Orama](https://github.com/oramasearch/orama)** ![GitHub stars](https://img.shields.io/github/stars/oramasearch/orama?style=social) - Lightweight search engine with full-text, vector, and hybrid search for browser, server, and edge applications.
-- **[NucliaDB](https://github.com/nuclia/nucliadb)** ![GitHub stars](https://img.shields.io/github/stars/nuclia/nucliadb?style=social) - AI search database for unstructured data and RAG workloads, with extraction, indexing, semantic search, and multimodal retrieval support.
 - **[HelixDB](https://github.com/HelixDB/helix-db)** ![GitHub stars](https://img.shields.io/github/stars/HelixDB/helix-db?style=social) - Graph-vector database for retrieval systems that need relationship traversal alongside semantic search.
 
 #### Embedding Models
@@ -1006,7 +1002,6 @@
 - **[CoPaw](https://github.com/agentscope-ai/CoPaw)** ![GitHub stars](https://img.shields.io/github/stars/agentscope-ai/CoPaw?style=social) - Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities. Apache-2.0 licensed.
 - **[Smart2Brain](https://github.com/your-papa/obsidian-Smart2Brain)** ![GitHub stars](https://img.shields.io/github/stars/your-papa/obsidian-Smart2Brain?style=social) - Privacy-focused Obsidian plugin for AI-powered second brain functionality. Chat with your notes using local or remote LLMs including Ollama and OpenAI. MIT licensed.
 - **[Casibase](https://github.com/casibase/casibase)** ![GitHub stars](https://img.shields.io/github/stars/casibase/casibase?style=social) - Open-source enterprise-level AI knowledge base and agent management platform. Supports multiple LLM providers, RAG, and team collaboration. Apache-2.0 licensed.
-- **[Libre WebUI](https://github.com/libre-webui/libre-webui)** ![GitHub stars](https://img.shields.io/github/stars/libre-webui/libre-webui?style=social) - Self-hosted AI chat interface with local-first positioning, Docker and Kubernetes deployment, authentication, plugins, and RAG support.
 - **[BionicGPT](https://github.com/bionic-gpt/bionic-gpt)** ![GitHub stars](https://img.shields.io/github/stars/bionic-gpt/bionic-gpt?style=social) - On-prem ChatGPT replacement for teams with assistants, RAG, access controls, auditing, and enterprise deployment features.
 
 #### Full Self-hosted AI Platforms
