@@ -87,14 +87,10 @@ CI Status: 🔧 FIX IN PROGRESS - Fixed regex pattern to handle hyphens in repo 
 ## Summary
 
 CI Health Check completed for awesome-opensource-ai main branch.
-- Status: PASSING (latest run: 2026-04-28T01:16:36Z)
-- No validation errors detected
-- No stale repos (>183 days) requiring removal
-- No duplicates found
-- No archived repos flagged
-- Recent activity: 3 stale repos removed (LLaVA 623d, Video-LLaMA 692d, VideoLLaMA2 459d), 2 new entries added (Deepnote, AI-Infra-Guard)
-
-No action required. CI is healthy.
+- Status: FAILING (structural error at line 317)
+- Fix applied: Updated ENTRY_RE regex in validate_awesome.py to include hyphens in badge_repo character class
+- The regex `[^?)+]+` was changed to `[^?)+\-]+` to properly match repo names containing hyphens
+- Commit pushed: fix: regex pattern to handle hyphens in repo names [skip ci]
 
 ## Recent Activity
 
