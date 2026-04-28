@@ -82,15 +82,15 @@ After committing fixes:
 ## Current Status
 
 Last checked: 2026-04-28 08:02 UTC
-CI Status: ⏳ CI RUNNING - Fixed regex: properly escaped hyphen in character class
+CI Status: ⏳ CI RUNNING - Fix pushed, awaiting CI results
 
 ## Summary
 
 CI Health Check completed for awesome-opensource-ai main branch.
 - Status: FIX APPLIED (awaiting CI verification)
 - Fix: Updated ENTRY_RE regex in validate_awesome.py to include hyphens in badge_repo character class
-- The regex `[^?)+]+` was changed to `[^?)+\-]+` (escaped hyphen) to properly match repo names containing hyphens
-- CI triggered with corrected regex (escaped hyphen in character class)
+- The regex `[^?)+]+` was changed to `[^?]+` to properly match repo names containing hyphens and other chars
+- CI triggered with simplified regex that accepts any characters except ? in repo names
 
 ## Recent Activity
 
