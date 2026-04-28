@@ -378,6 +378,9 @@
 - **[PydanticAI](https://github.com/pydantic/pydantic-ai)** ![GitHub stars](https://img.shields.io/github/stars/pydantic/pydantic-ai?style=social) - Type-safe AI agent framework from the creators of Pydantic. Model-agnostic with 20+ providers, built-in observability via Logfire, MCP/A2A protocol support, and YAML/JSON agent definitions. MIT licensed.
 - **[Qwen-Agent](https://github.com/QwenLM/Qwen-Agent)** ![GitHub stars](https://img.shields.io/github/stars/QwenLM/Qwen-Agent?style=social) - Agent framework built on Qwen models featuring function calling, MCP support, code interpreter, RAG, and Chrome extension. Powers Qwen Chat with advanced tool use and planning capabilities. Apache 2.0 licensed.
 - **[Griptape](https://github.com/griptape-ai/griptape)** ![GitHub stars](https://img.shields.io/github/stars/griptape-ai/griptape?style=social) - Modular Python framework for AI agents and workflows with chain-of-thought reasoning, tools, and memory. Enforces structures like sequential pipelines and DAG-based workflows for predictable AI systems. Apache 2.0 licensed.
+- **[Marvin](https://github.com/PrefectHQ/marvin)** ![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/marvin?style=social) - Python framework for structured outputs and agentic AI workflows. Simplifies LLM interactions with type-safe interfaces, automatic schema generation, and built-in observability. From the creators of Prefect. Apache 2.0 licensed.
+- **[SuperAGI](https://github.com/TransformerOptimus/SuperAGI)** ![GitHub stars](https://img.shields.io/github/stars/TransformerOptimus/SuperAGI?style=social) - Dev-first open source autonomous AI agent framework. Build, manage and run useful autonomous agents quickly and reliably with concurrent execution, toolkits marketplace, and performance telemetry. MIT licensed.
+- **[Burr](https://github.com/apache/burr)** ![GitHub stars](https://img.shields.io/github/stars/apache/burr?style=social) - Apache incubating framework for building stateful AI applications (chatbots, agents, simulations). Monitor, trace, persist, and execute on your own infrastructure with built-in UI and pluggable memory. Apache 2.0 licensed.
 
 #### Multi-Agent Orchestration
 
@@ -880,6 +883,10 @@
 #### Responsible AI Development
 
 - **[Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox)** ![GitHub stars](https://img.shields.io/github/stars/microsoft/responsible-ai-toolbox?style=social) - Suite of tools providing model and data exploration, assessment interfaces and libraries for understanding AI systems. Enables developers to develop and monitor AI more responsibly with better data-driven actions. MIT licensed.
+
+#### Privacy-Preserving AI
+
+- **[PySyft](https://github.com/OpenMined/PySyft)** ![GitHub stars](https://img.shields.io/github/stars/OpenMined/PySyft?style=social) - Open-source framework for privacy-preserving data science and federated learning. Perform data science on data that remains in someone else's server without obtaining a copy. Enables remote data science with differential privacy, multi-party computation, and encrypted computation. Apache 2.0 licensed.
 
 ---
 
