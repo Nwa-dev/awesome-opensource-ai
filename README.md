@@ -379,7 +379,7 @@
 - **[Qwen-Agent](https://github.com/QwenLM/Qwen-Agent)** ![GitHub stars](https://img.shields.io/github/stars/QwenLM/Qwen-Agent?style=social) - Agent framework built on Qwen models featuring function calling, MCP support, code interpreter, RAG, and Chrome extension. Powers Qwen Chat with advanced tool use and planning capabilities. Apache 2.0 licensed.
 - **[Griptape](https://github.com/griptape-ai/griptape)** ![GitHub stars](https://img.shields.io/github/stars/griptape-ai/griptape?style=social) - Modular Python framework for AI agents and workflows with chain-of-thought reasoning, tools, and memory. Enforces structures like sequential pipelines and DAG-based workflows for predictable AI systems. Apache 2.0 licensed.
 - **[Marvin](https://github.com/PrefectHQ/marvin)** ![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/marvin?style=social) - Python framework for structured outputs and agentic AI workflows. Simplifies LLM interactions with type-safe interfaces, automatic schema generation, and built-in observability. From the creators of Prefect. Apache 2.0 licensed.
-- **[SuperAGI](https://github.com/TransformerOptimus/SuperAGI)** ![GitHub stars](https://img.shields.io/github/stars/TransformerOptimus/SuperAGI?style=social) - Dev-first open source autonomous AI agent framework. Build, manage and run useful autonomous agents quickly and reliably with concurrent execution, toolkits marketplace, and performance telemetry. MIT licensed.
+
 - **[Burr](https://github.com/apache/burr)** ![GitHub stars](https://img.shields.io/github/stars/apache/burr?style=social) - Apache incubating framework for building stateful AI applications (chatbots, agents, simulations). Monitor, trace, persist, and execute on your own infrastructure with built-in UI and pluggable memory. Apache 2.0 licensed.
 
 #### Multi-Agent Orchestration
@@ -429,8 +429,6 @@
 - **[AutoPrompt](https://github.com/Eladlev/AutoPrompt)** ![GitHub stars](https://img.shields.io/github/stars/Eladlev/AutoPrompt?style=social) - Intent-based prompt calibration framework that iteratively optimizes prompts through automated edge case generation and refinement. Reduces manual prompt engineering effort while addressing prompt sensitivity and ambiguity. Apache 2.0 licensed.
 - **[Prompt Optimizer](https://github.com/linshenkx/prompt-optimizer)** ![GitHub stars](https://img.shields.io/github/stars/linshenkx/prompt-optimizer?style=social) - AI prompt optimization tool with multi-round iterative improvements, dual-mode optimization for system and user prompts, and multi-model support. Available as web app, desktop app, Chrome extension, and Docker deployment. AGPL-3.0 licensed.
 - **[Guidance](https://github.com/guidance-ai/guidance)** ![GitHub stars](https://img.shields.io/github/stars/guidance-ai/guidance?style=social) - Efficient programming paradigm for steering language models. Control output structure with loops, conditionals, and regex constraints inline. Reduces latency and cost vs conventional prompting. MIT licensed.
-- **[LMQL](https://github.com/eth-sri/lmql)** ![GitHub stars](https://img.shields.io/github/stars/eth-sri/lmql?style=social) - Programming language for LLMs based on a superset of Python. Offers constraint-guided generation with novel interweaving of traditional programming and LLM calls. Apache 2.0 licensed.
-- **[TextGrad](https://github.com/zou-group/textgrad)** ![GitHub stars](https://img.shields.io/github/stars/zou-group/textgrad?style=social) - Automatic "Differentiation" via Text using LLMs to backpropagate textual gradients. Published in Nature. Framework for text-based optimization with variable-level gradients. MIT licensed.
 - **[XGrammar](https://github.com/mlc-ai/xgrammar)** ![GitHub stars](https://img.shields.io/github/stars/mlc-ai/xgrammar?style=social) - Fast, flexible and portable structured generation engine. Default backend for vLLM, SGLang, TensorRT-LLM, and MLC-LLM with flexible grammar support and zero-overhead mask generation. Apache 2.0 licensed.
 - **[LM Format Enforcer](https://github.com/noamgat/lm-format-enforcer)** ![GitHub stars](https://img.shields.io/github/stars/noamgat/lm-format-enforcer?style=social) - Enforce output format (JSON Schema, Regex, etc) of language models by filtering allowed tokens at each generation step. Compatible with HuggingFace, llama-cpp-python, and vLLM. MIT licensed.
 
@@ -899,7 +897,6 @@
 
 #### Privacy-Preserving AI
 
-- **[PySyft](https://github.com/OpenMined/PySyft)** ![GitHub stars](https://img.shields.io/github/stars/OpenMined/PySyft?style=social) - Open-source framework for privacy-preserving data science and federated learning. Perform data science on data that remains in someone else's server without obtaining a copy. Enables remote data science with differential privacy, multi-party computation, and encrypted computation. Apache 2.0 licensed.
 
 ---
 
