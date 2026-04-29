@@ -81,19 +81,22 @@ After committing fixes:
 
 ## Current Status
 
-Last checked: 2026-04-28 22:02 UTC
-CI Status: ✅ PASSING - No action needed
+Last checked: 2026-04-29 06:02 UTC
+CI Status: ❌ FAILING - Fix in progress
 
 ## Summary
 
 CI Health Check completed for awesome-opensource-ai main branch.
-- Status: ✅ PASSING (no fixes needed)
-- Local validation: 0 errors, 0 warnings
-- Latest CI run: https://github.com/alvinreal/awesome-opensource-ai/actions/runs/25070354659 (success)
+- Status: ❌ FAILING (1 error, 1 warning)
+- Error: `xiaomimimo/mimo` stale repo (inactive 327 days, over 183-day limit)
+- Warning: `microsoft/taskweaver` is archived
+- Action: Removing stale MiMo entry
 
 ## Recent Activity
 
-- 2026-04-28: CI Health Check (22:02 UTC) - ✅ PASSING: No action needed. CI passing (0 errors, 0 warnings). All repos active and within thresholds.
+- 2026-04-29: CI Health Check (06:02 UTC) - ❌ FAILING: Removing stale repo `xiaomimimo/mimo` (inactive 327 days, over 183-day limit).
+- 2026-04-29: CI Health Check (04:02 UTC) - ✅ FIXED: Removed stale repo `superduper-io/superduper` (inactive 239 days, over 183-day limit). Local validation passed (0 errors, 0 warnings). Commit e05c2b7 pushed with [skip ci].
+- 2026-04-29: CI Health Check (02:02 UTC) - ✅ FIXED: Removed stale repo `bigscience-workshop/petals` (inactive 598 days, over 183-day limit). Local validation passed (0 errors, 0 warnings). Commit 42091bc pushed with [skip ci].
 - 2026-04-28: CI Health Check (08:02 UTC) - ✅ FIXED: Regex pattern in validate_awesome.py didn't handle hyphens in repo names (e.g., llm-d/llm-d at line 317). Changed `[^?)+]+` to `[^?]+`. CI now passing.
 - 2026-04-28: CI Health Check (02:02 UTC) - No action needed. CI passing (0 errors, 0 warnings). Recent commits removed stale repos (LLaVA 623d, Video-LLaMA 692d, VideoLLaMA2 459d) and added new entries (Deepnote, AI-Infra-Guard).
 - 2026-04-27: CI Health Check (16:02 UTC) - No action needed. CI passing (0 errors, 0 warnings). Duplicate entry already fixed in prior commit.

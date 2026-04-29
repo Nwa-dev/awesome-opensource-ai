@@ -6,7 +6,7 @@
 
 # Awesome Open Source AI
 
-*A curated list of **battle-tested, production-proven** open-source AI models, libraries, infrastructure, and developer tools. Only elite-tier projects make this list. Updated April 28, 2026.*
+*A curated list of **battle-tested, production-proven** open-source AI models, libraries, infrastructure, and developer tools. Only elite-tier projects make this list. Updated April 29, 2026.*
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](./CONTRIBUTING.md)
@@ -140,6 +140,7 @@
 - **[Temporal](https://github.com/temporalio/temporal)** ![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social) - Durable execution platform for reliable workflow orchestration. Build resilient data pipelines and ML workflows that survive failures and continue execution exactly where they left off. MIT licensed.
 - **[Luigi](https://github.com/spotify/luigi)** ![GitHub stars](https://img.shields.io/github/stars/spotify/luigi?style=social) - Python module for building complex pipelines of batch jobs. Handles dependency resolution, workflow management, visualization, and Hadoop integration. Built at Spotify and battle-tested in production. Apache 2.0 licensed.
 - **[Mage.ai](https://github.com/mage-ai/mage-ai)** ![GitHub stars](https://img.shields.io/github/stars/mage-ai/mage-ai?style=social) - Modern open-source data pipeline tool for integrating and transforming data. AI-native ETL/ELT platform with 100+ integrations, real-time monitoring, and collaborative features. Apache 2.0 licensed.
+- **[Hamilton](https://github.com/apache/hamilton)** ![GitHub stars](https://img.shields.io/github/stars/apache/hamilton?style=social) - Declarative dataflow framework for building testable, modular, self-documenting data pipelines. Encode lineage and metadata directly in Python functions. Originally from Stitch Fix, now Apache incubating. Apache 2.0 licensed.
 
 #### Classical ML & Gradient Boosting
 
@@ -225,7 +226,11 @@
 #### Large Language Models (Base + Chat)
 
 - **[RWKV-7 "Goose" (BlinkDL)](https://github.com/BlinkDL/RWKV-LM)** ![GitHub stars](https://img.shields.io/github/stars/BlinkDL/RWKV-LM?style=social) - Novel RNN architecture with transformer-level LLM performance. 100% attention-free, linear-time, constant-space (no kv-cache), infinite ctx_len. Linux Foundation AI project with runtime already deployed in Windows & Office.
-- **[Qwen3.6-Plus (Alibaba)](https://github.com/QwenLM/Qwen)** ![GitHub stars](https://img.shields.io/github/stars/QwenLM/Qwen?style=social) - Latest flagship series released April 2026 with 1M context window, agentic coding performance competitive with Claude 4.5 Opus, and enhanced multimodal capabilities.
+- **[Qwen3 (Alibaba)](https://github.com/QwenLM/Qwen3)** ![GitHub stars](https://img.shields.io/github/stars/QwenLM/Qwen3?style=social) - Flagship dense and MoE models with hybrid thinking modes (32B/235B). Apache 2.0 licensed with 128K context and superior agentic capabilities.
+- **[Qwen3.6 (Alibaba)](https://github.com/QwenLM/Qwen3.6)** ![GitHub stars](https://img.shields.io/github/stars/QwenLM/Qwen3.6?style=social) - Latest flagship series released April 2026 with 1M context window, agentic coding performance competitive with Claude 4.5 Opus, and enhanced multimodal capabilities.
+
+- **[MiMo-V2-Flash (Xiaomi)](https://github.com/XiaomiMiMo/MiMo-V2-Flash)** ![GitHub stars](https://img.shields.io/github/stars/XiaomiMiMo/MiMo-V2-Flash?style=social) - 309B MoE model (15B active) with hybrid attention and Multi-Token Prediction for efficient high-speed reasoning. Apache 2.0 licensed.
+- **[Nemotron (NVIDIA)](https://github.com/NVIDIA-NeMo/Nemotron)** ![GitHub stars](https://img.shields.io/github/stars/NVIDIA-NeMo/Nemotron?style=social) - Open and efficient models for agentic AI with training recipes, deployment guides, and use-case examples. Apache 2.0 licensed.
 - **[Gemma 4 (Google)](https://github.com/google-deepmind/gemma)** ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/gemma?style=social) - Released April 2026 in four sizes (E2B, E4B, 26B MoE, 31B Dense). First major update in a year with Apache 2.0 license, complex logic, and agentic workflows.
 - **[Kimi K2 (Moonshot AI)](https://github.com/MoonshotAI/Kimi-K2)** ![GitHub stars](https://img.shields.io/github/stars/MoonshotAI/Kimi-K2?style=social) - State-of-the-art 1T parameter MoE model with 32B activated parameters and 128K context. Trained with Muon optimizer for exceptional reasoning and coding performance.
 - **[Kimi K2.5 (Moonshot AI)](https://github.com/MoonshotAI/Kimi-K2.5)** ![GitHub stars](https://img.shields.io/github/stars/MoonshotAI/Kimi-K2.5?style=social) - Frontier open-weight MoE model with 256K context, strong coding and reasoning performance, and native multimodal + tool-use support for agentic workflows.
@@ -343,6 +348,7 @@
 
 - **[CTranslate2](https://github.com/OpenNMT/CTranslate2)** ![GitHub stars](https://img.shields.io/github/stars/OpenNMT/CTranslate2?style=social) - Fast inference engine for Transformer models supporting OpenNMT and Hugging Face models. Optimized for CPU and GPU with batching, quantization (INT8/FP16), and dynamic memory management. Powers faster-whisper and other production deployments. MIT licensed.
 - **[PowerInfer](https://github.com/SJTU-IPADS/PowerInfer)** ![GitHub stars](https://img.shields.io/github/stars/SJTU-IPADS/PowerInfer?style=social) - High-speed LLM inference for local deployment on consumer GPUs. Achieves up to 11x speedup over llama.cpp on RTX 4090 by exploiting power-law neuron activation patterns. MIT licensed.
+- **[distributed-llama](https://github.com/b4rtaz/distributed-llama)** ![GitHub stars](https://img.shields.io/github/stars/b4rtaz/distributed-llama?style=social) - Distributed LLM inference connecting home devices into a powerful cluster. More devices means faster inference via tensor parallelism over Ethernet. Supports Linux, macOS, Windows, ARM, and x86_64 AVX2 CPUs. MIT licensed.
 
 #### Quantization, Distillation & Optimization
 
@@ -378,6 +384,8 @@
 - **[PydanticAI](https://github.com/pydantic/pydantic-ai)** ![GitHub stars](https://img.shields.io/github/stars/pydantic/pydantic-ai?style=social) - Type-safe AI agent framework from the creators of Pydantic. Model-agnostic with 20+ providers, built-in observability via Logfire, MCP/A2A protocol support, and YAML/JSON agent definitions. MIT licensed.
 - **[Qwen-Agent](https://github.com/QwenLM/Qwen-Agent)** ![GitHub stars](https://img.shields.io/github/stars/QwenLM/Qwen-Agent?style=social) - Agent framework built on Qwen models featuring function calling, MCP support, code interpreter, RAG, and Chrome extension. Powers Qwen Chat with advanced tool use and planning capabilities. Apache 2.0 licensed.
 - **[Griptape](https://github.com/griptape-ai/griptape)** ![GitHub stars](https://img.shields.io/github/stars/griptape-ai/griptape?style=social) - Modular Python framework for AI agents and workflows with chain-of-thought reasoning, tools, and memory. Enforces structures like sequential pipelines and DAG-based workflows for predictable AI systems. Apache 2.0 licensed.
+- **[TaskWeaver (Microsoft)](https://github.com/microsoft/TaskWeaver)** ![GitHub stars](https://img.shields.io/github/stars/microsoft/TaskWeaver?style=social) - Code-first agent framework for seamlessly planning and executing data analytics tasks. Preserves both chat history and code execution history including in-memory data, making it ideal for processing complex data structures like high-dimensional tabular data. MIT licensed.
+- **[Langroid](https://github.com/langroid/langroid)** ![GitHub stars](https://img.shields.io/github/stars/langroid/langroid?style=social) - Harness LLMs with multi-agent programming. Mature tool calling system based on Pydantic, supports hundreds of LLM providers including OpenAI and local servers. Built for robust agent behavior in real-world use cases. MIT licensed.
 - **[Marvin](https://github.com/PrefectHQ/marvin)** ![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/marvin?style=social) - Python framework for structured outputs and agentic AI workflows. Simplifies LLM interactions with type-safe interfaces, automatic schema generation, and built-in observability. From the creators of Prefect. Apache 2.0 licensed.
 
 - **[Burr](https://github.com/apache/burr)** ![GitHub stars](https://img.shields.io/github/stars/apache/burr?style=social) - Apache incubating framework for building stateful AI applications (chatbots, agents, simulations). Monitor, trace, persist, and execute on your own infrastructure with built-in UI and pluggable memory. Apache 2.0 licensed.
@@ -444,6 +452,7 @@
 - **[AI-Scientist-v2 (SakanaAI)](https://github.com/SakanaAI/AI-Scientist-v2)** ![GitHub stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist-v2?style=social) - Workshop-level automated scientific discovery via agentic tree search. Generates novel research ideas, runs experiments, and writes papers.
 - **[PraisonAI](https://github.com/MervinPraison/PraisonAI)** ![GitHub stars](https://img.shields.io/github/stars/MervinPraison/PraisonAI?style=social) - 24/7 AI employee team for automating complex challenges. Low-code multi-agent framework with handoffs, guardrails, memory, RAG, and 100+ LLM providers.
 - **[Agent-S (Simular AI)](https://github.com/simular-ai/Agent-S)** ![GitHub stars](https://img.shields.io/github/stars/simular-ai/Agent-S?style=social) - Open agentic framework that uses computers like a human. SOTA on OSWorld benchmark (72.6%) for GUI automation and computer control.
+- **[MobileAgent (Alibaba/X-PLUG)](https://github.com/X-PLUG/MobileAgent)** ![GitHub stars](https://img.shields.io/github/stars/X-PLUG/MobileAgent?style=social) - Powerful GUI agent family for autonomous mobile device control. Multimodal agent framework designed to operate smartphone apps through visual UI perception and reasoning. MIT licensed.
 - **[UI-TARS Desktop (ByteDance)](https://github.com/bytedance/UI-TARS-desktop)** ![GitHub stars](https://img.shields.io/github/stars/bytedance/UI-TARS-desktop?style=social) - Open-source multimodal AI agent stack with native GUI agent capabilities. Desktop application bringing GUI agent and vision power to your computer, browser, and terminal. Apache 2.0 licensed.
 - **[Browser Use](https://github.com/browser-use/browser-use)** ![GitHub stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social) - Makes websites accessible for AI agents. Enables autonomous web automation, data extraction, and task completion with natural language instructions. MIT licensed.
 - **[Steel Browser](https://github.com/steel-dev/steel-browser)** ![GitHub stars](https://img.shields.io/github/stars/steel-dev/steel-browser?style=social) - Open-source browser API for AI agents and apps. Batteries-included browser sandbox for web automation without infrastructure worries. Apache 2.0 licensed.
@@ -452,6 +461,7 @@
 - **[n8n](https://github.com/n8n-io/n8n)** ![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social) - Self-hostable workflow automation platform with AI agent nodes, tool integrations, and production automation workflows.
 - **[Activepieces](https://github.com/activepieces/activepieces)** ![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social) - Open-source automation platform with AI agents, MCP integrations, and self-hosted workflow orchestration.
 - **[Julep](https://github.com/julep-ai/julep)** ![GitHub stars](https://img.shields.io/github/stars/julep-ai/julep?style=social) - Stateful agent workflow platform with memory, tools, branching, and long-running task execution.
+- **[uAgents (Fetch.ai)](https://github.com/fetchai/uAgents)** ![GitHub stars](https://img.shields.io/github/stars/fetchai/uAgents?style=social) - Fast and lightweight framework for creating decentralized agents with ease. Agents automatically join the network by registering on the Almanac smart contract. Supports agent-to-agent communication out of the box. Apache 2.0 licensed.
 - **[Tracecat](https://github.com/TracecatHQ/tracecat)** ![GitHub stars](https://img.shields.io/github/stars/TracecatHQ/tracecat?style=social) - Self-hostable security automation platform for building agentic workflows across alerts, cases, and operations.
 - **[ToolJet](https://github.com/ToolJet/ToolJet)** ![GitHub stars](https://img.shields.io/github/stars/ToolJet/ToolJet?style=social) - Self-hostable internal app builder with AI app and agent workflows for operations teams.
 
@@ -499,7 +509,7 @@
 - **[HelixDB](https://github.com/HelixDB/helix-db)** ![GitHub stars](https://img.shields.io/github/stars/HelixDB/helix-db?style=social) - Graph-vector database for retrieval systems that need relationship traversal alongside semantic search.
 - **[USearch](https://github.com/unum-cloud/usearch)** ![GitHub stars](https://img.shields.io/github/stars/unum-cloud/usearch?style=social) - Fast single-file similarity search & clustering engine for vectors. Smaller and faster than FAISS with 20+ language bindings (C++, Python, JavaScript, Rust, Java, Go, etc.) and support for custom metrics. Apache 2.0 licensed.
 - **[Voyager](https://github.com/spotify/voyager)** ![GitHub stars](https://img.shields.io/github/stars/spotify/voyager?style=social) - Spotify's approximate nearest-neighbor search library for Python and Java. Up to 10x faster than Annoy with 4x less memory, designed for production use at billion-vector scale. Apache 2.0 licensed.
-
+- **[Deep Lake](https://github.com/activeloopai/deeplake)** ![GitHub stars](https://img.shields.io/github/stars/activeloopai/deeplake?style=social) - AI Data Runtime for Agents with serverless PostgreSQL and multimodal datalake. Store and search vectors, images, text, videos, and more with LangChain/LlamaIndex integrations. Used by Intel, Bayer, Yale, and Oxford. Apache 2.0 licensed.
 #### Embedding Models
 
 - **[BGE (FlagEmbedding)](https://github.com/FlagOpen/FlagEmbedding)** ![GitHub stars](https://img.shields.io/github/stars/FlagOpen/FlagEmbedding?style=social) - BAAI's best-in-class embedding family.
@@ -735,6 +745,10 @@
 - **[DJL (Deep Java Library)](https://github.com/deepjavalibrary/djl)** ![GitHub stars](https://img.shields.io/github/stars/deepjavalibrary/djl?style=social) - Engine-agnostic deep learning framework for Java with built-in model zoo. Load and run PyTorch, TensorFlow, MXNet, and ONNX models with a unified API. Includes 80+ pre-trained models for CV and NLP. Apache 2.0 licensed.
 - **[PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg)** ![GitHub stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleSeg?style=social) - Easy-to-use image segmentation library with awesome pre-trained model zoo. Supports semantic segmentation, interactive segmentation, panoptic segmentation, image matting, and 3D segmentation with 200+ pre-trained models. Apache 2.0 licensed.
 
+#### Model Packaging & Deployment
+
+- **[Cog (Replicate)](https://github.com/replicate/cog)** ![GitHub stars](https://img.shields.io/github/stars/replicate/cog?style=social) - Containerize and deploy ML models with production-grade inference servers. Packages models into standardized containers with automatic API generation, GPU support, and one-command deployment. Powers thousands of production AI models on Replicate. Apache 2.0 licensed.
+
 #### Deployment & Orchestration
 
 - **[BentoML](https://github.com/bentoml/BentoML)** ![GitHub stars](https://img.shields.io/github/stars/bentoml/BentoML?style=social) - Unified framework to build, ship, and scale AI apps.
@@ -836,6 +850,7 @@
 - **[OpenEvals](https://github.com/langchain-ai/openevals)** ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/openevals?style=social) - Open-source evaluation library for LLM and agent applications. Built by LangChain with pre-built evaluators for common use cases including RAG, agents, and structured output validation. MIT licensed.
 - **[AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG)** ![GitHub stars](https://img.shields.io/github/stars/Marker-Inc-Korea/AutoRAG?style=social) - RAG AutoML tool for automatically finding optimal RAG pipelines. Evaluates and optimizes retrieval-augmented generation with AutoML-style automation for your own data and use-case. Apache 2.0 licensed.
 - **[E2B Code Interpreter](https://github.com/e2b-dev/code-interpreter)** ![GitHub stars](https://img.shields.io/github/stars/e2b-dev/code-interpreter?style=social) - Python & JS/TS SDK for running AI-generated code in secure isolated sandboxes. Essential infrastructure for evaluating code-generating LLMs with safe execution environments. Apache 2.0 licensed.
+- **[SimpleEvals (OpenAI)](https://github.com/openai/simple-evals)** ![GitHub stars](https://img.shields.io/github/stars/openai/simple-evals?style=social) - Lightweight library for evaluating language models with transparent accuracy numbers. Reference implementations for MMLU, GPQA, MATH, HumanEval, MGSM, DROP, and SimpleQA benchmarks. MIT licensed.
 
 #### High-quality Open Datasets & Data Tools
 
