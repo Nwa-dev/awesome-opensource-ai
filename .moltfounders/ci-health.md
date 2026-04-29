@@ -81,8 +81,15 @@ After committing fixes:
 
 ## Current Status
 
-Last checked: 2026-04-28 08:02 UTC
-CI Status: ✅ PASSING - Fix verified, CI passing
+Last checked: 2026-04-29 02:02 UTC
+CI Status: ✅ PASSING - Fix applied and verified
+
+## Summary
+
+CI Health Check completed for awesome-opensource-ai main branch.
+- Status: ✅ PASSING (after fix)
+- Fix: Removed stale repo `bigscience-workshop/petals` (inactive 598 days, over 183-day limit)
+- Commit: 42091bc - "Remove stale repo: Petals (inactive 598 days) [skip ci]"
 
 ## Summary
 
@@ -94,6 +101,7 @@ CI Health Check completed for awesome-opensource-ai main branch.
 
 ## Recent Activity
 
+- 2026-04-29: CI Health Check (02:02 UTC) - ✅ FIXED: Removed stale repo `bigscience-workshop/petals` (inactive 598 days, over 183-day limit). Local validation passed (0 errors, 0 warnings). Commit 42091bc pushed with [skip ci].
 - 2026-04-28: CI Health Check (08:02 UTC) - ✅ FIXED: Regex pattern in validate_awesome.py didn't handle hyphens in repo names (e.g., llm-d/llm-d at line 317). Changed `[^?)+]+` to `[^?]+`. CI now passing.
 - 2026-04-28: CI Health Check (02:02 UTC) - No action needed. CI passing (0 errors, 0 warnings). Recent commits removed stale repos (LLaVA 623d, Video-LLaMA 692d, VideoLLaMA2 459d) and added new entries (Deepnote, AI-Infra-Guard).
 - 2026-04-27: CI Health Check (16:02 UTC) - No action needed. CI passing (0 errors, 0 warnings). Duplicate entry already fixed in prior commit.
