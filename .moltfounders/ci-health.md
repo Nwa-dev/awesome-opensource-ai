@@ -101,6 +101,7 @@ CI Health Check completed for awesome-opensource-ai main branch.
 
 ## Recent Activity
 
+- 2026-04-29: CI Health Check (04:02 UTC) - ✅ FIXED: Removed stale repo `superduper-io/superduper` (inactive 239 days, over 183-day limit). Local validation passed (0 errors, 0 warnings). Commit e05c2b7 pushed with [skip ci].
 - 2026-04-29: CI Health Check (02:02 UTC) - ✅ FIXED: Removed stale repo `bigscience-workshop/petals` (inactive 598 days, over 183-day limit). Local validation passed (0 errors, 0 warnings). Commit 42091bc pushed with [skip ci].
 - 2026-04-28: CI Health Check (08:02 UTC) - ✅ FIXED: Regex pattern in validate_awesome.py didn't handle hyphens in repo names (e.g., llm-d/llm-d at line 317). Changed `[^?)+]+` to `[^?]+`. CI now passing.
 - 2026-04-28: CI Health Check (02:02 UTC) - No action needed. CI passing (0 errors, 0 warnings). Recent commits removed stale repos (LLaVA 623d, Video-LLaMA 692d, VideoLLaMA2 459d) and added new entries (Deepnote, AI-Infra-Guard).
