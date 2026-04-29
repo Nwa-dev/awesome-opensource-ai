@@ -502,8 +502,6 @@
 - **[USearch](https://github.com/unum-cloud/usearch)** ![GitHub stars](https://img.shields.io/github/stars/unum-cloud/usearch?style=social) - Fast single-file similarity search & clustering engine for vectors. Smaller and faster than FAISS with 20+ language bindings (C++, Python, JavaScript, Rust, Java, Go, etc.) and support for custom metrics. Apache 2.0 licensed.
 - **[Voyager](https://github.com/spotify/voyager)** ![GitHub stars](https://img.shields.io/github/stars/spotify/voyager?style=social) - Spotify's approximate nearest-neighbor search library for Python and Java. Up to 10x faster than Annoy with 4x less memory, designed for production use at billion-vector scale. Apache 2.0 licensed.
 - **[Deep Lake](https://github.com/activeloopai/deeplake)** ![GitHub stars](https://img.shields.io/github/stars/activeloopai/deeplake?style=social) - AI Data Runtime for Agents with serverless PostgreSQL and multimodal datalake. Store and search vectors, images, text, videos, and more with LangChain/LlamaIndex integrations. Used by Intel, Bayer, Yale, and Oxford. Apache 2.0 licensed.
-- **[SuperDuper](https://github.com/superduper-io/superduper)** ![GitHub stars](https://img.shields.io/github/stars/superduper-io/superduper?style=social) - End-to-end framework for building custom AI applications and agents directly with your existing databases. Integrate AI models and vector search without moving data. Supports MongoDB, PostgreSQL, Snowflake, and more. Apache 2.0 licensed.
-
 #### Embedding Models
 
 - **[BGE (FlagEmbedding)](https://github.com/FlagOpen/FlagEmbedding)** ![GitHub stars](https://img.shields.io/github/stars/FlagOpen/FlagEmbedding?style=social) - BAAI's best-in-class embedding family.
